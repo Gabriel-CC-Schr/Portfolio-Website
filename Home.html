@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>User Portfolio</title>
     <!---custom css link--->
-    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/stlye1.css">
 
     <link rel="stylesheet"
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
@@ -19,6 +19,8 @@
 <!---header--->
 <header>
     <h2 class="logo">Portfo<span>lio</span></h2>
+    <!-- mobile menu icon -->
+    <div id="menu-icon" class="bx bx-menu" aria-label="menu" role="button" tabindex="0"></div>
     <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Me</a></li>
@@ -32,12 +34,13 @@
 
 <!---home--->
 <section class="home" id="home">
-    <video autoplay loop muted plays-inline class="back-video">
+    <video autoplay loop muted playsinline class="back-video">
         <source src="img/video4.mp4" type="video/mp4">
     </video>
     <div class="home-text">
-        <h4>Hi there, good to see you!!</h4>
-        <h1>I'm a Undergraduate   <br> <span>101</span></h1>
+        <h4>Welcome
+        </h4>
+        <h1>I'm Gabriel <br> <span>CruzDev</span></h1>
         <h3>Computer Science Student Enthusiast </h3>
         <a href="https://www.linkedin.com/in/gabriel-cruz-chavez" class="btn" target="_blank">Linkedin Profile</a>
     </div>
@@ -85,9 +88,9 @@
         <div class="skill-box">
             <div class="skill-title">
                 <div class="tech_img">
-                    <img class="skill-icon" src="img/C.png" alt="C Programming Language">
+                    <img class="skill-icon" src="img/Java.png" alt="Java Programming Language">
                 </div>
-                <h3>C</h3>
+                <h3>Java</h3>
             </div>
         </div>
         <div class="skill-box">
@@ -117,9 +120,9 @@
         <div class="skill-box">
             <div class="skill-title">
                 <div class="tech_img">
-                    <img class="skill-icon" src="img/js.png" alt="JavaScript">
+                    <img class="skill-icon" src="img/Linux.png" alt="Linux">
                 </div>
-                <h3>JavaScript</h3>
+                <h3>Linux</h3>
             </div>
         </div>
         <div class="skill-box">
@@ -141,19 +144,42 @@
     <br>
     <div class="experience-content">
         <div class="box">
-            <img src="img/gfg.png" >
-            <h3>GeeksforGeeks</h3>
+            <img src="img/mcex.png" >
+            <h3>Mendocino College</h3>
             <h4>
                     <span>
-                        Technical Content Writer
+                        Information and Technology Student Worker
                     </span>
             </h4>
             <br>
             <p>
-                • Created Multiple Software Development Projects with their detailed Documentation.
-                <br>
-                • Worked with the Dynamic Team of GeeksforGeeks.
+                The IT Student Worker maintains computer hardware and installs the company software to ensure efficient performance and connection reliability for all students. This involves regularly servicing and updating all systems and maintaining proper organization of IT resources.
             </p>
+
+            <img src="img/mcex.png" >
+            <h3>Mendocino College</h3>
+            <h4>
+                    <span>
+                        Student Resource Assistant
+                    </span>
+            </h4>
+            <br>
+            <p>
+
+                • Accurately input and manage student records, including IDs, items, and names, ensuring data consistency and reliability on Excel.
+
+                <br>
+                • Develop and execute outreach initiatives to effectively inform and support students in accessing valuable campus resources.
+                <br>
+                • Plan, coordinate, and execute events aimed at enhancing student engagement and promoting resource awareness.
+                <br>
+                • Foster strong relationships across various departments to streamline processes and achieve shared goals.
+                <br>
+                • Design and produce creative, impactful content tailored to student needs, ensuring alignment with institutional objectives.
+                <br>
+                •Build meaningful connections with the student body through targeted communication strategies and interactive initiatives.
+            </p>
+
         </div>
     </div>
 </section>
@@ -230,45 +256,10 @@
 <section class="portfolio" id="portfolio">
     <div class="main-text">
         <h2>My Projects</h2>
-        <h4>Some Of My Distinguished Works</h4>
+        <h4>Some Of My Fun Works</h4>
     </div>
 
     <div class="portfolio-content">
-        <div class="row">
-            <a href="https://www.geeksforgeeks.org/library-management-system/" target="_blank">
-                <img src="img/lib1.jpg">
-            </a>
-            <div class="main-row">
-                <div class="row-text">
-                    <h6>Web App development</h6>
-                </div>
-            </div>
-            <h3>Library Management System</h3>
-        </div>
-
-        <div class="row">
-            <a href="https://www.geeksforgeeks.org/forecast-weather-project-check-today-weather-for-any-location/" target="_blank">
-                <img src="img/weather.jpg">
-            </a>
-            <div class="main-row">
-                <div class="row-text">
-                    <h6>Web App Development</h6>
-                </div>
-            </div>
-            <h3>Weather Forecasting App</h3>
-        </div>
-
-        <div class="row">
-            <a href="https://www.geeksforgeeks.org/dog-breed-classification-using-transfer-learning/" target="_blank">
-                <img src="img/breed.jpg">
-            </a>
-            <div class="main-row">
-                <div class="row-text">
-                    <h6>Machine Learning</h6>
-                </div>
-            </div>
-            <h3>Dog's Breed Classification</h3>
-        </div>
 
         <div class="row">
             <a href="https://www.geeksforgeeks.org/ml-boston-housing-kaggle-challenge-with-linear-regression/" target="_blank">
@@ -289,7 +280,7 @@
 <section class="POR" id="POR">
     <div class="main-text">
         <h2>Position of Responsibilities</h2>
-        <h4>Some of My valunteer Work</h4>
+        <h4>Community Involvement and Professional Experience </h4>
     </div>
 
     <div class="portfolio-content">
@@ -297,20 +288,20 @@
             <img src="img/speaker.jpg">
             <div class="main-row">
                 <div class="row-text">
-                    <h6>GFG College Chapter</h6>
+                    <h6>ASMC Student Government </h6>
                 </div>
             </div>
-            <h3>President</h3>
+            <h3>Publicity Director and Parliamentarian</h3>
         </div>
 
         <div class="row">
-            <img src="img/chess.jpg">
+            <img src="img/Thanksgivingevent.jpg">
             <div class="main-row">
                 <div class="row-text">
-                    <h6>Chess Coordinator</h6>
+                    <h6>Event Coordinator</h6>
                 </div>
             </div>
-            <h3>College Chess Club</h3>
+            <h3>Student Event Guide</h3>
         </div>
     </div>
 </section>
@@ -332,10 +323,9 @@
             </a>
         </div>
         <div class="contact-icons">
-            <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-instagram' ></i></a>
-            <a href="https://www.geeksforgeeks.org/" target="_blank"><i class='bx bxl-github' ></i></a>
-            <a title="+91 0000000000"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.youtube.com/@CruzDevTech" target="_blank"><i class='bx bxl-youtube' ></i></a>
+            <a href="d" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://github.com/Gabriel-CC-Schr" target="_blank"><i class='bx bxl-github' ></i></a>
 
         </div>
     </div>
